@@ -1,4 +1,5 @@
 def test_q1(f):
+    n = 1
     # Test for the find_highest_score function
     leaderboard = [("John", 1000, 5), ("Alice", 1500, 4), ("Bob", 1200, 6)]
     expected_result = ("Alice", 1500, 4)
@@ -77,7 +78,9 @@ def test_q2(f):
         n += 1
 
 def test_q3(f):
-# Test for process_data_files function
+    n = 1
+    
+    # Test for process_data_files function
     input_files = ["input_file1.txt", "input_file2.txt"]  # Provide appropriate input file paths for testing
     output_file = "output_file.txt"  # Provide appropriate output file path for testing
 
